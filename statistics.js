@@ -20,7 +20,7 @@ function calcVariance(X,N){
 	for(let i = 0; i < N; i++){
 		summationMM = summationMM + ((X[i]-mean) * (X[i]-mean));
 	}
-	return summationMM/N;
+	return summationMM/(N-1);
 }
 
 function calcStdDev(X,N){
