@@ -11,7 +11,7 @@ Final Exposition of Probability and Statistics
 
 | English                                                      | Español                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| The next year after making the last decision, confidential information is obtained, where its stated that the second supplier presents changes in its production process due to the incorporation of a new manufacturing line; in that circumstance, the workshop makes the decision to re-compare the values of two samples (A1 against A3). The new values of the third sample (A3) can be obtained in table 2. | Al año siguiente de haber tomado la decisión anterior, se obtiene información reservada, donde se afirma que el segundo proveedor presenta cambios en su proceso productivo a causa de la incorporación de una nueva línea de fabricación; en esa circunstancia, el taller toma la decisión devolver a comparar los valores de dos muestras (A1 contra A3). Los nuevos valores de la tercera muestra (A3) pueden obtenerse en la Tabla 2. |
+| Confidential information was obtained the year after the previous decision was made, stating that the second supplier had modifications to its production process as a result of the addition of a new manufacturing line; in that circumstance, the workshop makes the decision to re-compare the values of two samples (A1 against A3). The new values of the third sample (A3) can be obtained in table 2. | Al año siguiente de haber tomado la decisión anterior, se obtiene información reservada, donde se afirma que el segundo proveedor presenta cambios en su proceso productivo a causa de la incorporación de una nueva línea de fabricación; en esa circunstancia, el taller toma la decisión devolver a comparar los valores de dos muestras (A1 contra A3). Los nuevos valores de la tercera muestra (A3) pueden obtenerse en la Tabla 2. |
 
 
 
@@ -41,7 +41,7 @@ function calcVariance(X,N){
 	for(let i = 0; i < N; i++){
 		summationMM = summationMM + ((X[i]-mean) * (X[i]-mean));
 	}
-	return summationMM/N;
+	return summationMM/N-1;
 }
 
 function calcStdDev(X,N){
@@ -92,14 +92,13 @@ Muestra A1
 Tamaño de la muestra: 12
 Sumatoria total de los elementos: 888.422
 Media: 74.03516666666667
-Varianza: 0.00000147222222222286
-Desviacion estandar: 0.0012133516482136825
+Varianza: 0.0000016060606060613019
+Desviacion estandar: 0.001267304464626122
 
 Muestra A3
 Tamaño de la muestra: 64
 Sumatoria total de los elementos: 4738.125999999999
 Media: 74.03321874999999
-Varianza: 0.000001577148437500739
-Desviacion estandar: 0.0012558457060884267
+Varianza: 0.0000016021825396832904
+Desviacion estandar: 0.0012657734946203015
 ```
-
