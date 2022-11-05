@@ -17,6 +17,7 @@ Final Exposition of Probability and Statistics
 
 <details>
   <summary>Show/Hide JavaScript code used to calculate the statistics of the samples</summary>
+
 ```js
 // Matías Alemán 5hifty
 
@@ -80,9 +81,8 @@ console.log("\nMuestra A1");
 procSample(A1, A1.length);
 console.log("\nMuestra A3");
 procSample(A3, A3.length);
-````
+```
 </details>
-
 
 
 ```sh
