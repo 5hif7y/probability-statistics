@@ -80,6 +80,7 @@ console.log("\nMuestra A3");
 procSample(A3, A3.length);
 ````
 </details>
+
 ```sh
 $ node statistics.js
 
