@@ -13,6 +13,8 @@ Final Exposition of Probability and Statistics
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | The next year after making the last decision, confidential information is obtained, where its stated that the second supplier presents changes in its production process due to the incorporation of a new manufacturing line; in that circumstance, the workshop makes the decision to re-compare the values of two samples (A1 against A3). The new values of the third sample (A3) can be obtained in table 2. | Al año siguiente de haber tomado la decisión anterior, se obtiene información reservada, donde se afirma que el segundo proveedor presenta cambios en su proceso productivo a causa de la incorporación de una nueva línea de fabricación; en esa circunstancia, el taller toma la decisión devolver a comparar los valores de dos muestras (A1 contra A3). Los nuevos valores de la tercera muestra (A3) pueden obtenerse en la Tabla 2. |
 
+
+
 <details>
   <summary>Show/Hide JavaScript code used to calculate the statistics of the samples</summary>
 ```js
@@ -80,6 +82,8 @@ console.log("\nMuestra A3");
 procSample(A3, A3.length);
 ````
 </details>
+
+
 
 ```sh
 $ node statistics.js
